@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tejas's Gym</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url(img/man-2604149_1920.jpg);
+
+        }
+
+        .left {
+            position: absolute;
+            top: 22px;
+            left: 64px;
+            border: 2px solid wheat;
+            display: inline-block;
+        }
+        .left img{
+            width: 70px;
+            height: 70px;
+        }
+        .left div{
+            text-align: center;
+        }
+
+        .mid {
+            /* its a block element */
+            border: 2px solid wheat;
+            display: block;
+            width: 54%;
+            margin: 22px auto;
+        }
+
+        .right {
+            position: absolute;
+            top: 22px;
+            right: 64px;
+            border: 2px solid wheat;
+            display: inline-block;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            color: aliceblue;
+            text-decoration: none;
+            padding: 10px 45px;
+        }
+
+        .navbar li a:hover {
+            color: rgb(199, 225, 247);
+            text-decoration: underline;
+
+            padding: 10px 45px;
+        }
+        .btn{    margin: 20px 9px;
+    padding: 8px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- left box for logo -->
+    <header class="header">
+        <div class="left"> <img src="img/weightlifting-2227543_1280.png" alt="">
+        <div>Tejas's Gym</div></div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Bmi calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+
+
+            </ul>
+        </div>
+        <div class="right"> <button class="btn">Call us</button>
+            <button class="btn">Email us</button> </div>
+    </header>
+
+</body>
+
+</html>
